@@ -2,20 +2,58 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Ciudad Friki - Documentación Legal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal & Privacy - Ciudad Friki</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; max-width: 600px; margin: 50px auto; padding: 20px; text-align: center; }
-        .box { border: 1px solid #ddd; padding: 20px; border-radius: 8px; background: #f9f9f9; }
-        a { display: block; margin: 10px 0; color: #007bff; text-decoration: none; font-weight: bold; }
+        :root {
+            --bg-dark: #0f172a; /* Azul oscuro del splash */
+            --primary-red: #e11d48; /* Rojo del logo */
+            --card-bg: #1e293b;
+        }
+        body { 
+            font-family: 'Segoe UI', sans-serif; 
+            background-color: var(--bg-dark); 
+            color: white; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            margin: 0; 
+        }
+        .container { 
+            background: var(--card-bg); 
+            padding: 40px; 
+            border-radius: 20px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5); 
+            text-align: center; 
+            width: 90%; 
+            max-width: 500px;
+            border-top: 4px solid var(--primary-red);
+        }
+        h1 { font-size: 28px; margin-bottom: 10px; letter-spacing: 1px; }
+        h3 { color: var(--primary-red); text-transform: uppercase; font-size: 14px; margin-top: 30px; }
+        hr { border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 20px 0; }
+        a { 
+            display: block; 
+            margin: 12px 0; 
+            color: #cbd5e1; 
+            text-decoration: none; 
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        a:hover { color: var(--primary-red); }
     </style>
 </head>
 <body>
-    <div class="box">
-        <h1>Legal & Privacy</h1>
+    <div class="container">
+        <h1>LEGAL & PRIVACY</h1>
+        <p style="color: #94a3b8;">Documentación oficial de Ciudad Friki</p>
+        
         <hr>
         <h3>Español</h3>
         <a href="politica-privacidad-es.html">Política de Privacidad</a>
         <a href="terminos-condiciones-es.html">Términos y Condiciones</a>
+        
         <hr>
         <h3>English</h3>
         <a href="privacy-policy-en.html">Privacy Policy</a>
