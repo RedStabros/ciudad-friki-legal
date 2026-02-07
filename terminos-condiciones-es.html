@@ -1,74 +1,125 @@
-Términos y Condiciones - Ciudad Friki
-Bienvenido a Ciudad Friki. Al acceder o usar nuestra aplicación móvil, aceptas estar sujeto a estos términos.
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Términos y Condiciones - Ciudad Friki</title>
+    <style>
+        :root {
+            --primary-color: #5D3FD3;
+            --text-color: #333;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+        }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.6; 
+            color: var(--text-color); 
+            max-width: 850px; 
+            margin: 0 auto; 
+            padding: 40px 20px; 
+            background-color: var(--bg-color); 
+        }
+        .container { 
+            background: var(--card-bg); 
+            padding: 50px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08); 
+        }
+        h1 { 
+            color: var(--primary-color); 
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 15px;
+        }
+        h2 { 
+            color: var(--primary-color); 
+            margin-top: 30px; 
+            font-size: 1.4rem;
+            border-left: 5px solid var(--primary-color);
+            padding-left: 15px;
+        }
+        p, li { 
+            margin-bottom: 15px; 
+            text-align: justify; 
+        }
+        ul {
+            margin-bottom: 20px;
+        }
+        strong { 
+            color: #000; 
+        }
+        .highlight-box {
+            background-color: #fffde7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 1px solid #fff59d;
+        }
+        .footer { 
+            margin-top: 50px; 
+            font-size: 0.9rem; 
+            color: #666; 
+            text-align: center; 
+            border-top: 1px solid #eee; 
+            padding-top: 25px; 
+        }
+        @media (max-width: 600px) {
+            .container { padding: 25px; }
+            h1 { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Términos y Condiciones - Ciudad Friki</h1>
+        
+        <p>Bienvenido a <strong>Ciudad Friki</strong>. Al acceder o usar nuestra aplicación móvil, aceptas estar sujeto a estos términos y condiciones.</p>
 
-1. Relación Contractual y Propiedad Intelectual
-Propiedad del Software: Todo el código fuente, arquitectura de base de datos (Supabase), lógica de servidor (Express), desarrollo en React Native, minijuegos (incluyendo el modo "Tower Defense") y sistemas técnicos son propiedad exclusiva de Mauricio Saldarriaga García (en adelante, "el Desarrollador").
+        <h2>1. Relación Contractual y Propiedad Intelectual</h2>
+        <p>El tratamiento y desarrollo técnico del software pertenece a <strong>Mauricio Saldarriaga García</strong>. Los términos son los siguientes:</p>
+        <ul>
+            <li><strong>Propiedad del Software:</strong> Todo el código fuente, arquitectura de base de datos (Supabase), lógica de servidor (Express), desarrollo en React Native y minijuegos son propiedad exclusiva del Desarrollador.</li>
+            <li><strong>Propiedad de Marca:</strong> Los nombres, logotipos y la marca "Ciudad Friki" son propiedad de la <strong>Corporación Ciudad Friki</strong> (NIT: 901.597.939-0).</li>
+            <li><strong>Restricciones:</strong> No puedes realizar ingeniería inversa o intentar extraer el código fuente sin permiso expreso.</li>
+        </ul>
 
-Propiedad de Marca: Los nombres, logotipos, la marca registrada "Ciudad Friki" y los diseños visuales son propiedad de la Corporación Ciudad Friki (NIT: 901.597.939-0).
+        <h2>2. Edad Mínima y Cuenta de Usuario</h2>
+        <p>Debes tener al menos <strong>13 años</strong> para usar esta aplicación. Si eres menor de 18 años, declaras contar con el consentimiento de tus padres o tutores legales. Eres responsable de la seguridad de tu cuenta.</p>
 
-Restricciones: No puedes descompilar, realizar ingeniería inversa o intentar extraer el código fuente de la aplicación sin el permiso expreso por escrito del Desarrollador.
+        <h2>3. Frikicoins (Sistema de Recompensas Virtuales)</h2>
+        <div class="highlight-box">
+            <p>Las <strong>Frikicoins</strong> son puntos de fidelidad digitales sin valor monetario real. No son canjeables por dinero en efectivo, moneda de curso legal o criptomonedas. El Desarrollador se reserva el derecho de ajustar balances en caso de fraude.</p>
+        </div>
 
-2. Edad Mínima y Cuenta de Usuario
-Debes tener al menos 13 años para usar esta aplicación. Si eres menor de 18 años, declaras que cuentas con el consentimiento de tus padres o tutores legales.
+        <h2>4. Dinámicas de Juego y Modo Historia</h2>
+        <p>Al participar en los minijuegos y el Modo Historia, aceptas que tu progreso y puntuaciones se almacenarán para fines de clasificación. El uso de hacks o bots resultará en la terminación inmediata de la cuenta.</p>
 
-Eres responsable de mantener la confidencialidad de tu cuenta y de todas las actividades que ocurran bajo tus credenciales.
+        <h2>5. Encuestas y Gestión de Datos</h2>
+        <p>La participación en encuestas es voluntaria. Autorizas el análisis de tus respuestas de forma agregada y anónima para investigación cultural y censos comunitarios. Tus datos personales nunca se compartirán de forma identificable sin consentimiento.</p>
 
-3. Frikicoins (Sistema de Recompensas Virtuales)
-Las Frikicoins son puntos de fidelidad digitales dentro del ecosistema de Ciudad Friki.
+        <h2>6. Gestión de Eventos y Roles de Usuario</h2>
+        <p>Los usuarios que publican eventos son responsables de la exactitud de la información. Ciudad Friki se reserva el derecho de moderar o eliminar contenido inapropiado o falso. Los roles administrativos pueden ser revocados por mal uso.</p>
 
-Sin Valor Monetario: Las Frikicoins no tienen valor monetario en el mundo real y no son canjeables por dinero en efectivo, moneda de curso legal o criptomonedas.
+        <h2>7. Código de Conducta</h2>
+        <p>Los usuarios aceptan no crear múltiples cuentas para abusar del sistema, no publicar contenido discriminatorio y no manipular las calificaciones de la plataforma.</p>
 
-El Desarrollador se reserva el derecho de ajustar, cancelar o expirar los balances de Frikicoins en casos de actividad fraudulenta, trampas o explotación de errores técnicos.
+        <h2>8. Limitación de Responsabilidad</h2>
+        <p>Ciudad Friki no se hace responsable por la seguridad de eventos organizados por terceros, interrupciones temporales del servicio o interacciones entre usuarios fuera de la aplicación.</p>
 
-4. Dinámicas de Juego y Modo Historia
-Al participar en las dinámicas interactivas (Minijuegos) y el Modo Historia, aceptas que:
+        <h2>9. Modificaciones de los Términos</h2>
+        <p>Nos reservamos el derecho de modificar estos términos en cualquier momento. El uso continuado de la app constituye la aceptación de las nuevas condiciones.</p>
 
-Tu progreso, puntuaciones y clasificaciones se almacenarán para fines de tablas de posiciones y recompensas.
+        <h2>10. Ley Aplicable y Contacto</h2>
+        <p>Estos términos se rigen por las leyes de la <strong>República de Colombia</strong>.</p>
 
-El uso de bots, hacks o software de terceros para alterar las puntuaciones está estrictamente prohibido y resultará en la terminación inmediata de la cuenta.
-
-5. Encuestas y Gestión de Datos
-Participación Voluntaria: Completar encuestas es totalmente opcional.
-
-Uso de Datos: Autorizas a Ciudad Friki a analizar tus respuestas de forma agregada y anónima para investigación cultural, censos comunitarios y fines académicos en colaboración con aliados estratégicos no comerciales.
-
-Privacidad: Tus datos personales nunca se compartirán de forma identificable sin tu consentimiento explícito.
-
-6. Gestión de Eventos y Roles de Usuario
-Responsabilidad: Los usuarios que publican eventos son los únicos responsables de la exactitud y legalidad de la información proporcionada.
-
-Moderación: Nos reservamos el derecho de eliminar o editar contenido que sea falso, engañoso, ilegal o que viole derechos de terceros.
-
-Roles: Los roles administrativos (Worker, Técnico, Admin) se otorgan a discreción del proyecto y pueden ser revocados si se detecta un mal uso de las herramientas.
-
-7. Código de Conducta
-Los usuarios aceptan NO:
-
-Crear múltiples cuentas para abusar del sistema de recompensas.
-
-Publicar contenido ofensivo, discriminatorio o ilegal.
-
-Manipular encuestas, calificaciones o reseñas.
-
-Usar la plataforma para actividades comerciales no autorizadas o spam.
-
-8. Limitación de Responsabilidad
-Ciudad Friki es una plataforma de conexión. No somos responsables por:
-
-La calidad, seguridad o legalidad de los eventos organizados por terceros.
-
-Interrupciones temporales del servicio o pérdida de datos debido a actualizaciones técnicas o fuerza mayor.
-
-Interacciones entre usuarios que ocurran fuera de la plataforma.
-
-9. Modificaciones de los Términos
-Nos reservamos el derecho de modificar estos términos en cualquier momento. Las actualizaciones importantes se notificarán a través de la app. El uso continuado de la app constituye la aceptación de los términos actualizados.
-
-10. Ley Aplicable y Contacto
-Estos términos se rigen por las leyes de la República de Colombia.
-
-Email: udcarkangel@gmail.com
-
-Entidad: Corporación Ciudad Friki (NIT: 901.597.939-0)
-
-Última actualización: Febrero 2026
+        <div class="footer">
+            <strong>Última actualización:</strong> Febrero 2026<br>
+            <strong>Contacto:</strong> udcarkangel@gmail.com<br>
+            Ciudad Friki &copy; 2026
+        </div>
+    </div>
+</body>
+</html>
